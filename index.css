@@ -1,0 +1,55 @@
+body{
+    background-color:#8f96ec;
+    display: flex;
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    justify-content: center;
+    /* border:10px solid green; */
+    
+}
+#demo{
+    /* border:10px solid yellow; */
+    border-radius: 10px;
+    width: 50%;
+    background-color:#29263c;
+    color:white;
+    margin-top: 50px;
+    padding : 80px 30px;
+    
+}
+#bill_total,#tip{
+    border-radius: 20px;
+    background-color: #8f96ec;
+    
+}
+.people_text{
+
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.last_row{
+    align-items: center;
+    margin-top: 20px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    font-size: 22px;
+}
+#demo > input{
+    width: 95%;
+    font-size: 20px;
+    color: white;
+    padding: 0px 10px;
+}
+.btn{
+    background-color: #8f96ec;
+    border-radius:100% ;
+    padding: 8px;
+    font-size: medium;
+    margin: 0px 5px;
+    border:1px solid #8f96ec;
+}

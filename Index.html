@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Document</title>
+    <Link rel="stylesheet" href="./index.css" type="text/css"/>
+</head>
+<body>
+    
+    <div id = "demo">
+         
+         <p class = "text">Bill total </p>
+         <input type="number" onkeyup="calculateBill()" id="bill_total"/>
+
+         <p class = "text"> Tip (in %) :</p>
+         <input type="number" onkeyup="calculateBill()" id="tip"/>
+
+         <div class="people_text">
+            <l class = "text">People</l>
+            <l class = "text">Total per person</l>
+         </div>
+         <div class="last_row">
+            <span>
+            <button class="btn" onclick="increase()">+</button>
+            <l class = "text" id="people_count" >1</l>
+            <button class="btn" onclick ="decrease()" id="min">-</button>
+            </span> 
+
+            <spans>
+                <l class = "text" >$ <span id="totalPerPerson">0</span></l>
+            </spans>
+        </div>
+
+        
+    </div>
+</body>
+<script src="index.js">
+
+</script>
+</html>
